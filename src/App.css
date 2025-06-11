@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.app {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #1a73e8;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #333;
+  margin-top: 30px;
+}
+
+textarea {
+  width: 100%;
+  font-size: 1rem;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+input[type="text"].search {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 18px;
+  margin: 6px 6px 6px 0;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #1a73e8 !important;
+  color: white;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0f5ec0;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button.clear {
+  background-color: #e53935 !important;
+}
+
+button.clear:hover {
+  background-color: #c62828 !important;
+}
+
+button.delete {
+  background-color: #ef5350;
+  margin-top: 6px;
+}
+
+button.delete:hover {
+  background-color: #d32f2f;
+}
+
+.output {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e3f2fd;
+  border-left: 5px solid #1a73e8;
+  border-radius: 10px;
+}
+
+.error {
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+.history {
+  margin-top: 30px;
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.history-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #fdfdfd;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.history-item p {
+  margin: 5px 0;
+}
+
+hr {
+  border: 0.5px solid #eee;
+}
+pre {
+  white-space: pre-wrap;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+}
+
